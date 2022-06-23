@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(rgb(255, 255, 255), rgb(173, 173, 173)); */
+    background: linear-gradient(rgb(27, 27, 27), rgb(12, 12, 12));
+    font-family: 'Noto Sans', sans-serif;
+}
+/* ================================================================= */
+/* PRIMEIRA PAGINA */
+/* ================================================================= */
+
+nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+}
+
+nav .btLogo {
+    display: block;
+    padding: 5px 77vh;
+}
+
+nav .barra-pesquisa {
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    height: 20px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 20px -12px #ffffff;
+}
+
+nav .pesquisa-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: rgb(29, 29, 29);
+    font-size: 16px;
+    line-height: 40px;
+    /* width: 0;
+    transition: .4s; */
+    font-family: 'Open sans';
+}
+
+::-webkit-input-placeholder {
+    color: rgb(44, 44, 44)
+}
+
+nav .btPesquisa {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* nav .barra-pesquisa:hover > .pesquisa-txt {
+    width: 240px;
+    padding: 0 6px;
+} */
+
+/* .icone-login {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1.7%;
+    bottom: 94%;
+    box-shadow: 0px 0px 30px -12px #ffffff;
+} */
+
+.bottomLogin {
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0.1%;
+    bottom: 127%;
+    padding: 8px 0px;
+    margin: 17px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 13pt;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #1a1e30;
+    background: #ffffff;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px -12px #ffffff;
+}
+
+.bottomLogin > img {
+    margin-right: 10px
+}
+
+.bottomCarrinho {
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 89%;
+    bottom: 230%;
+    padding: 8px 0px;
+    margin: 17px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 13pt;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #1a1e30;
+    background: #ffffff;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px -12px #ffffff;
+}
+
+.bottomCarrinho > img {
+    margin-right: 10px
+}
+
+
+
+
+
+
+
+
+
+
+.content-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.titulo-sneakers {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20pt;
+    color: #fff;
+}
+
+.card {
+    background: rgb(196, 196, 196);
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+    margin: 0px 0px 10px 10px;
+}
+
+/* PRIMEIRA FILEIRA */
+.mediaCard {
+    background: url("https://cdn.discordapp.com/attachments/705621850440597635/989400744568455209/pronto5.png") center/cover;
+    height: 250px;
+    width: 450px;
+}
+
+.mediaCard2 {
+    background: url("https://cdn.discordapp.com/attachments/705621850440597635/989353106779291668/Camada_1.png") center/cover;
+    height: 250px;
+    width: 450px;
+}
+
+.mediaCard3 {
+    background: url("https://cdn.discordapp.com/attachments/705621850440597635/989352499179814942/tenis-nike-air-force-1-07-lv8-2-masculino-DM0118-001-1-11648130623.webp") center/cover;
+    height: 250px;
+    width: 450px;
+}
+
+.mediaCard4 {
+    background: url("https://cdn.discordapp.com/attachments/705621850440597635/989353410031665243/812202114428394.png") center/cover;
+    height: 250px;
+    width: 450px;
+}
+
+
+/* SEGUNDA FILEIRA */
+.mediaCard5 {
+    background: url("https://cdn.discordapp.com/attachments/705621850440597635/989398769416163398/pronto2.png") center/cover;
+    height: 250px;
+    width: 450px;
+}
+
+.mediaCard6 {
+    background: url("https://cdn.discordapp.com/attachments/705621850440597635/989398769164513330/pronto1.png") center/cover;
+    height: 250px;
+    width: 450px;
+}
+
+.mediaCard7 {
+    background: url("https://cdn.discordapp.com/attachments/705621850440597635/989398769671995442/pronto3.png") center/cover;
+    height: 250px;
+    width: 450px;
+}
+
+.mediaCard8 {
+    background: url("https://cdn.discordapp.com/attachments/705621850440597635/989398770229854218/pronto4.png") center/cover;
+    height: 250px;
+    width: 450px;
+}
+
+
+
+.topCard {
+    padding: 30px;
+    padding-top: 0px;
+}
+
+.bottomCard {
+    padding: 20px;
+}
+
+.actions {
+    width: 90%;
+    padding: 16px 0px;
+    margin: 17px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 15pt;
+    letter-spacing: 1px;
+    color: #1a1e30;
+    background: #0093ad;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px -12px #00b4d4;
+}
+
+.footer {
+    background: #000000;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-bottom p {
+    color: #fff;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
