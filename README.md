@@ -57,7 +57,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="https://cdn.discordapp.com/attachments/705621850440597635/989413426440859668/Ricardo.jpg" width="100px;" alt="Foto de Ricardo Jeremias Pereira"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Ricardo Jeremias Pereira</b>
         </sub>
       </a>
     </td>
@@ -65,7 +65,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="https://cdn.discordapp.com/attachments/705621850440597635/989413494271135784/Jessi.jpg" width="100px;" alt="Foto de Jessica Leticia dos Santos"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b>Jessica Leticia dos Santos</b>
         </sub>
       </a>
     </td>
