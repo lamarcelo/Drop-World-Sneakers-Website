@@ -52,7 +52,7 @@ nav .pesquisa-txt {
     line-height: 40px;
     /* width: 0;
     transition: .4s; */
-    font-family: 'Open sans';
+    font-family: 'Noto Sans';
 }
 
 ::-webkit-input-placeholder {
@@ -87,6 +87,7 @@ nav .btPesquisa {
     bottom: 94%;
     box-shadow: 0px 0px 30px -12px #ffffff;
 } */
+
 
 .bottomLogin {
     width: 130px;
@@ -145,7 +146,74 @@ nav .btPesquisa {
 }
 
 
+.promocoes {
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 137px;
+    height: 35px;
+    overflow: hidden;
+}
 
+.divulgacoes {
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 40px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 510;
+    line-height: 60px;
+}
+
+.line:first-child {
+    animation: anim 20s infinite;
+}
+
+@keyframes anim {
+    0% {
+        margin-top: 0;
+    }
+
+    16% {
+        margin-top: -60px;
+    }
+
+    33% {
+        margin-top: -120px;
+    }
+
+    50% {
+        margin-top: -180px;
+    }
+
+    66% {
+        margin-top: -120px;
+    }
+
+    82% {
+        margin-top: -60px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
 
 
 
@@ -165,18 +233,20 @@ nav .btPesquisa {
 .titulo-sneakers {
     display: flex;
     margin-top: 70px;
+    margin-bottom: -40px;
     justify-content: center;
     text-align: center;
     text-transform: uppercase;
-    font-size: 20pt;
+    font-size: 40pt;
     color: #fff;
 }
 
 .card {
-    background: rgb(196, 196, 196);
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 20px;
     box-shadow: 0px 2px 23px #26395338;
     margin: 0px 0px 10px 10px;
+    text-align: center;
 }
 
 /* PRIMEIRA FILEIRA */
@@ -245,6 +315,7 @@ nav .btPesquisa {
     width: 90%;
     padding: 16px 0px;
     margin: 17px;
+    margin-bottom: -10px;
     border: none;
     border-radius: 15px;
     outline: none;
@@ -256,6 +327,14 @@ nav .btPesquisa {
     background: #0093ad;
     cursor: pointer;
     box-shadow: 0px 0px 30px -12px #00b4d4;
+}
+
+.actionsCard > button:hover {
+    background-color: #00ad0e; 
+    box-shadow: 0px 0px 30px -12px #00ff15;
+    color: #fff;
+    transition: 0.5s;
+    opacity: 0.7;
 }
 
 .footer {
