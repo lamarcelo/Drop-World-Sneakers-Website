@@ -5,7 +5,7 @@
 ![GitHub repository size](https://img.shields.io/github/repo-size/lamarcelo/Drop-World-Sneakers-Website?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/lamarcelo/Drop-World-Sneakers-Website?style=for-the-badge)
 
-<img src="imgs/Website-Exemplo.gif" alt="exemplo imagem">
+![Website-Exemple](https://user-images.githubusercontent.com/84106176/175990216-214579ba-7b83-43bc-b3ce-9b03e92baa61.png)
 
 ## 🛠️ Ajustes e melhorias
 
