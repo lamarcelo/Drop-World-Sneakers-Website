@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: rgb(19, 19, 19);
+}
+body img{
+	margin-bottom: 200px;
+	margin-right: 50px;
+}
+
+.container2
+{
+	position: absolute;
+    bottom: 0px;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	right: 0;
+	margin-right: -150px;
+}
+
+.container 
+{
+	margin: 0 40px;
+	max-width: 600px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-bottom: 100px;
+
+}
+.container h1 
+{
+	color: #fff;
+    margin-left: 120px;
+}
+.container .tab 
+{
+	position: relative;
+	background: #fff;
+	padding: 0 20px 20px;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.05);
+	border-radius: 5px;
+	overflow: hidden;
+    box-shadow: 0px 0px 30px -12px #dfdfdf;
+}
+.container .tab input 
+{
+	appearance: none;
+}
+.container .tab label 
+{
+	display: inline-block;
+	display: flex;
+	margin-bottom: 0px;
+	align-items: center;
+	cursor: pointer;
+}
+.container .tab label::after 
+{
+	content: '+';
+	position: absolute;
+	right: 20px;
+	font-size: 2em;
+	color: rgba(0,0,0,0.1);
+	transition: transform 1s;
+}
+.container .tab:hover label::after 
+{
+	color: #333;
+}
+.container .tab input:checked ~ label::after
+{
+	content: '+';
+	color: #fff;
+	transform: rotate(135deg);
+}
+.container .tab label h2 
+{
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 1.25em;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.container .tab input:checked ~ label h2 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: rgba(255,255,255,0.2);
+	font-size: 8em;
+	justify-content: flex-end;
+	padding: 20px;
+}
+.container .tab label h3 
+{
+	position: relative;
+	font-weight: 500;
+	color: #333;
+	z-index: 10;
+}
+.container .tab input:checked ~ label h3 
+{
+	background: #fff;
+	padding: 2px 10px;
+	color: #333;
+	border-radius: 2px;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+} 
+.container .tab .content 
+{
+	max-height: 0;
+	overflow: hidden;
+	transition: 0.01s;
+}
+.container .tab input:checked ~ .content 
+{
+	max-height: 100vh;
+	transition: 1s;
+}
+.container .tab .content p 
+{
+	position: relative;
+	padding: 10px 0;
+	color: #333;
+	z-index: 10;
+}
+
+.container .tab input:checked ~ .content p 
+{
+	color: #fff;
+    font-weight: 500;
+}
+
+.btn-voltar {
+    width: 50%;
+    padding: 16px 0px;
+    margin: 5px 0px 0px 150px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #333;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px -12px #dfdfdf;
+}
+
+
+.btn-devs {
+    width: 50%;
+    padding: 16px 0px;
+    margin: 5px 0px 0px 150px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #333;
+    background: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px -12px #dfdfdf;
+}
+
+
+.container .tab:nth-child(2) label h2 
+{
+	background: linear-gradient( 135deg, #70F570 10%, #49C628 100%);
+}
+.container .tab:nth-child(3) label h2 
+{
+	background: linear-gradient( 135deg, #3C8CE7 10%, #00EAFF 100%);
+}
+.container .tab:nth-child(4) label h2 
+{
+	background: linear-gradient( 135deg, #FF96F9 10%, #C32BAC 100%);
+}
+.container .tab:nth-child(5) label h2 
+{
+	background: linear-gradient( 135deg, #FD6E6A 10%, #FFC600 100%);
+}
+
+.bubbles 
+{
+	position: relative;
+	display: flex;
+}
+.bubbles span 
+{
+	position: relative;
+	min-width: 30px;
+	height: 30px;
+	background: #ffffff;
+	box-shadow: 0 0 0 10px #ffffff44,
+	0 0 50px #ffffff,
+	0 0 100px #ffffff;
+	margin: 0 4px;
+	border-radius: 50%;
+	animation: animate 15s linear infinite;
+	animation-duration: calc(75s / var(--i));
+}
+.bubbles span:nth-child(even) 
+{
+	background: #ffffff;
+	box-shadow: 0 0 0 10px #ffffff44,
+	0 0 50px #ffffff,
+	0 0 100px #ffffff;
+}
+@keyframes animate 
+{
+	0% 
+	{
+		transform: translateY(100vh) scale(0);
+	}
+	100% 
+	{
+		transform: translateY(-10vh) scale(1);
+	}
+}
+
+footer
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    min-height: 10px;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p
+{
+    color: rgb(19, 19, 19);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+footer .wave
+{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('https://cdn.discordapp.com/attachments/705621850440597635/990840338958667836/wave.png');
+    background-size: 1000px 100px;
+}
+
+footer .wave#wave1
+{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2
+{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+}
+
+footer .wave#wave3
+{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+}
+footer .wave#wave4
+{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 3s linear infinite;
+}
+
+@keyframes animateWave
+{
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
+}
+
+@keyframes animateWave_02
+{
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
