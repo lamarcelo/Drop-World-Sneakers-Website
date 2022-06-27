@@ -5,7 +5,7 @@
 ![GitHub repository size](https://img.shields.io/github/repo-size/lamarcelo/Drop-World-Sneakers-Website?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/lamarcelo/Drop-World-Sneakers-Website?style=for-the-badge)
 
-<img src="imgs/website-exemple.png" alt="exemplo imagem">
+<img src="imgs/Website-Exemplo.gif" alt="exemplo imagem">
 
 ## 🛠️ Ajustes e melhorias
 
@@ -22,7 +22,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
 * Você tem uma máquina `Windows / Linux / Mac`.
-* Você possui uma `noção básica de desenvolvimento front-end`.
+* Você possui uma `IDE com suporte as linguagens HTML e CSS`.
 
 ## 🚀 Usando o Drop World Sneakers
 
