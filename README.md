@@ -51,25 +51,4 @@ Como alternativa, consulte a documentação do GitHub em [como criar uma solicit
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://cdn.discordapp.com/attachments/705621850440597635/989413426440859668/Ricardo.jpg" width="100px;" alt="Foto de Ricardo Jeremias Pereira"/><br>
-        <sub>
-          <b>Ricardo Jeremias Pereira</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://cdn.discordapp.com/attachments/705621850440597635/989413494271135784/Jessi.jpg" width="100px;" alt="Foto de Jessica Leticia dos Santos"/><br>
-        <sub>
-          <b>Jessica Leticia dos Santos</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+![Devs](https://user-images.githubusercontent.com/84106176/175984831-248171b6-603f-47f1-ab31-f293715d765d.png)
